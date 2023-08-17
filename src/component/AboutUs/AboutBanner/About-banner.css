@@ -1,0 +1,17 @@
+.about-us-info{
+    height: 70vh;
+    color: #ffffff;
+    letter-spacing: 3px;
+    background: url('../../../../public/img/Gallerys\ 1.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.about-us-info .about-us-title{
+    padding-top: 12vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 22px;
+}

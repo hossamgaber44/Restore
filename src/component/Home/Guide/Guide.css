@@ -1,0 +1,84 @@
+.guide {
+    padding: 32px 0px;
+    line-height: 1.4;
+    letter-spacing: 1.4px;
+}
+
+.guide .guide-title {
+    padding: 20px 42px 22px;
+    text-align: center;
+}
+
+.guide .guide-title p {
+    padding: 16px 36px 20px;
+}
+
+.guide .guide-information {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 22px;
+}
+
+.guide .guide-information .guide-img {
+    flex-basis: 32%;
+    margin-bottom: 32px;
+}
+
+.guide .guide-information .guide-img div {
+    margin-bottom: 18px;
+}
+
+.guide .guide-information .guide-img span {
+    border-radius: 20px;
+    padding: 8px 12px;
+    border: 2px solid #db7a07;
+    color: #db7a07;
+    background: #ffffff;
+}
+
+.guide .guide-information .guide-img h4 {
+    margin: 12px 0px;
+}
+
+.guide .guide-btn {
+    width: fit-content;
+    margin: auto;
+}
+
+.guide .guide-btn button {
+    padding: 10px 16px;
+    border-radius: 4px;
+    border: 2px solid #db7a07;
+    color: #db7a07;
+    background: #ffffff;
+}
+
+.guide .guide-btn button:hover {
+    border: 2px solid #cbcbcb;
+    background: #db7a07;
+    color: #cbcbcb;
+}
+
+@media(max-width:880px) {
+    .guide .guide-information .guide-img {
+        flex-basis: 48%;
+    }
+}
+
+@media(max-width:580px) {
+    .guide .guide-information .guide-img {
+        flex-basis: 100%;
+    }
+}
+
+@media(max-width:420px) {
+    .guide .guide-title {
+        padding: 20px 0px 22px;
+        text-align: center;
+    }
+
+    .guide .guide-title p {
+        padding: 16px 6px 20px;
+    }
+}

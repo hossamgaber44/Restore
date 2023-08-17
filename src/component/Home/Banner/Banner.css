@@ -1,0 +1,84 @@
+
+.banner{
+    background: url('/public/img/banner.jpeg') no-repeat ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;	
+    height: 100vh;
+    position: relative;
+    background-position: left;
+    width: 100%;
+}
+ .banner-information{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 54%; 
+}
+ .banner-information h1{
+    font-size: 76px;
+    color: #ffffff;
+}
+ .banner-information p{
+    margin: 30px;
+    font-size: 17px;
+    opacity: 1;
+}
+ .banner-information .btn-now{
+    padding: 12px 24px;
+    color: #db7a07;
+    border: none;
+    background: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.banner  .banner-information .btn-more{
+    padding: 12px 24px;
+    background: #db7a07;
+    color: #ffffff;
+    border: none;
+    margin-left: 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+@media(max-width:1050px){
+     .banner-information h1{
+        font-size: 66px;
+        color: #ffffff;
+    }
+}
+@media(max-width:880px){
+    .banner-information{
+        width:70% ;
+    }
+    .banner-information h1{
+       font-size: 54px;
+       color: #ffffff;
+   }
+   .banner-information p{
+    margin: 20px;
+    font-size: 16px;
+   }
+   .banner-information .btn-now ,
+   .banner  .banner-information .btn-more{
+    font-size: 15px;
+   }
+}
+@media(max-width:520px){
+    .banner-information{
+        width:80% ;
+    }
+    .banner-information h1{
+       font-size: 54px;
+       color: #ffffff;
+   }
+   .banner-information p{
+    margin: 20px;
+    font-size: 16px;
+   }
+   .banner-information .btn-now ,
+   .banner  .banner-information .btn-more{
+    font-size: 15px;
+    margin: 12px;
+   }
+}

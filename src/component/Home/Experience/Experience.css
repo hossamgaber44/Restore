@@ -1,0 +1,113 @@
+.services-information {
+    padding: 56px 0px;
+    border-top: 2px solid rgba(207, 200, 200, .8);
+}
+
+.services-information .Services-parent {
+    display: flex;
+    justify-content: space-around;
+}
+
+.services-information .Services-parent .Services-img {
+    flex-basis: 44%;
+    border-bottom: 3px solid #db7a07;
+}
+
+.services-information .Services-parent .services-info {
+    flex-basis: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.services-information .Services-parent .services-info .header {
+    display: flex;
+    justify-content: space-between;
+    margin: 4px 0px;
+    align-items: center;
+}
+
+.services-information .Services-parent .services-info .header span {
+    font-size: 54px;
+    padding-right: 16px;
+    color: #db7a07;
+}
+
+.services-information .Services-parent .services-info button:first-of-type {
+    padding: 12px 22px;
+    border-radius: 22px;
+    margin: 16px 16px 0px 0px;
+    background: #db7a07;
+    color: #ffffff;
+    border: 2px solid #db7a07;
+}
+
+.Services-parent .services-info button:last-of-type {
+    padding: 12px 22px;
+    border-radius: 22px;
+    margin: 16px 4px;
+}
+
+.Services-parent .services-info button:last-of-type span {
+    color: #db7a07;
+}
+
+@media(max-width:880px) {
+    .services-information .Services-parent {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .services-information .Services-parent .Services-img {
+        width: 80%;
+        padding-bottom: -6px;
+        margin: auto;
+    }
+
+    .services-information .Services-parent .services-info {
+        margin: 14px 0px;
+    }
+
+    .services-information .Services-parent .services-info .header {
+        justify-content: flex-start;
+    }
+
+    .services-information .Services-parent .services-info .header span {
+        padding-right: 30px;
+    }
+
+    .services-information .Services-parent p {
+        margin: 10px 0px;
+    }
+
+    .services-information .Services-parent .services-info button {
+        margin: 18px 10px 0px 0px;
+    }
+}
+
+@media(max-width:520px) {
+    .services-information .Services-parent .Services-img {
+        width: 100%;
+    }
+
+    .services-information .Services-parent .services-info .header span {
+        padding-right: 24px;
+    }
+
+    .services-information .Services-parent .services-info .header h3 b {
+        width: 100%;
+        display: block;
+    }
+}
+
+@media(max-width:440px) {
+    .services-information .Services-parent .services-info .header span {
+        padding-right: 14px;
+    }
+
+    .services-information .Services-parent .services-info .header h3 b {
+        font-size: 18px;
+        width: 100%;
+        display: block;
+    }
+}

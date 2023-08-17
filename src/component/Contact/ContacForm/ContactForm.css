@@ -1,0 +1,116 @@
+.contact-us {
+    margin: 28px 0px 38px;
+}
+
+.contact-us .contact-parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-us .contact-parent .contact-flex {
+    flex-basis: 49%;
+}
+
+.contact-us .contact-parent .contact-flex h2 {
+    padding: 0px 0px 34px;
+    margin-bottom: 20px;
+    margin: 12px 0px 18px;
+    border-bottom: 2px solid #9a9a9a;
+}
+
+.contact-us .contact-parent .contact-flex form {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.contact-us .contact-parent .contact-flex form input {
+    padding: 18px;
+    border: none;
+    border-bottom: 2px solid #9a9a9a;
+    outline: none;
+}
+
+.contact-us .contact-parent .contact-flex form textarea {
+    border: none;
+    outline: none;
+    padding: 18px 18px 0px;
+    height: 166px;
+    border-bottom: 2px solid #9a9a9a;
+}
+
+.contact-us .contact-parent .contact-flex .contact-information {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.contact-us .contact-parent .contact-flex .contact-information .contact-us-icon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 14px 0px;
+}
+
+.contact-us .contact-parent .contact-flex .contact-information .contact-us-icon i {
+    font-size: 22px;
+    margin-right: 14px;
+    color: #db7a07;
+}
+
+.contact-us .contact-parent .contact-flex .social-icon {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contact-us .contact-parent .contact-flex .social-icon i {
+    font-size: 26px;
+    color: #ffffff;
+    margin-right: 16px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+}
+
+.contact-us .contact-parent .contact-flex .social-icon .twitter {
+    background: rgb(4, 205, 18);
+}
+
+.contact-us .contact-parent .contact-flex .social-icon .facebook {
+    background: rgb(4, 37, 186);
+}
+
+.contact-us .contact-parent .contact-flex .social-icon .github {
+    background: rgb(8, 176, 232);
+}
+
+.contact-us .contact-parent .contact-flex .social-icon .instagram {
+    background: rgb(237, 21, 6);
+}
+
+.contact-us .form-btn {
+    padding: 12px 36px;
+    margin: 26px 0px;
+    width: 180px;
+    border-color: #db7a07;
+    background: #db7a07;
+    color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-us .form-btn:hover {
+    background: #cbcbcb;
+    color: #000000;
+}
+
+@media(max-width:930px) {
+    .contact-us .contact-parent {
+        flex-direction: column;
+    }
+
+    .contact-us .contact-parent .contact-flex:last-of-type {
+        margin-top: 40px;
+    }
+}

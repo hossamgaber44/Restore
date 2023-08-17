@@ -1,0 +1,66 @@
+
+.quotations .quotations-container{
+    display: flex;
+    justify-content: space-around;
+}
+.quotations .quotations-container .quotations-img{
+    flex-basis: 46%;
+}
+.quotations .quotations-container .quotations-information{
+    position: relative;
+    padding:16px 0px;
+}
+.quotations .quotations-container .quotations-information form{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.quotations .quotations-container .quotations-information p{
+    margin: 18px 0px;
+}
+.quotations .quotations-container .quotations-information form input{
+    padding: 10px 18px;
+    margin: 16px 0px 0px;
+    outline: none;
+}
+.quotations .quotations-container .quotations-information form textarea{
+    padding: 10px 18px;
+    margin: 16px 0px;
+    height: 120px;
+    outline: none;
+}
+.quotations .quotations-container .quotations-information form button{
+    padding: 12px 16px;
+    background: #db7a07;
+    color: #ffffff;
+    position: absolute;
+    border-radius: 4px;
+    right: 0px;
+    bottom: 0px;
+    border:none;
+    cursor: pointer;
+}
+.quotations .quotations-container .quotations-information form button:hover{
+    color: #db7a07;
+    background: #cbcbcb;
+}
+.quotations .quotations-container .quotations-information .form-button{
+    padding: 12px;
+}
+@media(max-width:880px){
+    .quotations .quotations-container{
+        flex-direction: column;
+    }
+    .quotations .quotations-container .quotations-img{
+        width: 80%;
+        margin: auto;
+    }
+    .quotations .quotations-container .quotations-information{
+        margin:16px 0px 0px;
+    }
+}
+@media(max-width:520px){
+    .quotations .quotations-container .quotations-img{
+        width: 100%;
+    }
+}

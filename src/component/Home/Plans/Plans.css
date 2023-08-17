@@ -1,0 +1,81 @@
+
+.plans{
+    text-align: center;
+    margin: 58px 0px;
+ }
+ .plans .plans-title{
+     width: 88%;
+     margin: auto;
+     padding: 14px 0px 24px;
+ }
+ .plans .plans-title p{
+     padding: 12px 0px 32px;
+  }
+  .plans .plans-containt{
+     display:flex;
+     justify-content: space-between;
+  }
+  .plans .plans-containt .plan{
+     padding: 30px;
+     flex-basis: 24%;
+     border:2px solid rgba(207,200,200, .8);
+     border-radius: 10px;
+   }
+   .plans .plans-containt .plan h4{
+      padding-left: 8px;
+   }
+   .plans .plans-containt .plan .plan-p{
+     display: flex;
+     color: #db7a07;
+     justify-content: center;
+     padding: 8px 0px 2px 14px;
+   }
+   .plans .plans-containt .plan .plan-p span:first-of-type{
+     font-size: 36px;
+     color: #db7a07;
+     padding-right: 4px;
+   }
+   .plans .plans-containt .plan .plan-p span:last-of-type{
+     font-size: 22px;
+   }
+   .plans .plans-containt .plan p:last-of-type{
+     padding: 24px 0px;
+     opacity: .8;
+   }
+   .plans .plans-containt .plan button{
+     padding: 12px 18px;
+     color: #ffffff;
+     background: #db7a07;
+     border: none;
+     border-radius: 6px;
+     cursor: pointer;
+   }
+   .plans .plans-containt .plan button:hover{
+    color: #db7a07;
+    background: #cbcbcb;
+   }
+   
+@media(max-width:1100px){
+  .plans .plans-containt{
+      flex-wrap: wrap;
+  }
+  .plans .plans-containt .plan{
+      flex-basis:32.2%;
+      margin-bottom: 14px;
+  }
+}
+@media(max-width:880px){
+ .plans .plans-containt .plan{
+      flex-basis:48%;
+  }
+}
+@media(max-width:580px){
+ .plans .plans-containt .plan{
+      flex-basis:100%;
+  }
+}
+@media(max-width:420px){
+  .plans .plans-title {
+      width: 100%;
+  }
+}

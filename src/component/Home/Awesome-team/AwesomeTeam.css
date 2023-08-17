@@ -1,0 +1,83 @@
+
+.team{
+    margin: 35px 0px 20px;
+    text-align: center;
+}
+.team .team-information .team-title p{
+    padding: 12px 16px;
+    opacity:.75;
+}
+.team .team-information .team-title{
+    padding: 54px 24px 42px;
+}
+.team .team-information .awesome-team{
+    display: flex;
+    justify-content: space-between;
+}
+.team .team-information .awesome-team .image{
+    flex-basis: 23.5%;
+    border: none;
+    overflow: hidden;
+}
+.team .team-information .awesome-team .image h4{
+    padding: 10px 0px 6px;
+}
+.team .team-information .awesome-team .image p{
+    opacity:.75;
+}
+
+.team .team-information .awesome-team .social-media{
+    text-align: center;
+    padding: 0px 0px 24px;
+    margin:10px 0px 24px;
+}
+.team .team-information .awesome-team .social-media i{
+    font-size: 18px;
+    border: 1px solid #aeaaaa;
+     border-radius: 50%;
+     background: #eeeeee;
+     color: #db7a07;
+     width: 40px;
+     height: 40px;
+     line-height: 40px;
+     margin-right: 6px;
+     transition: all .5s ease-in-out;
+}
+.team .team-information .awesome-team .social-media i:hover{
+    transform: rotate(360deg);
+    background: #0077b6;
+    color:  #db7a07;
+}
+
+@media(max-width:1040px){
+    .team .team-information .awesome-team{
+        flex-wrap: wrap;
+    }
+    .team .team-information .awesome-team .image{
+        flex-basis:32.2%;
+        margin-bottom: 14px;
+    }
+  }
+  @media(max-width:840px){
+   .team .team-information .awesome-team .image{
+        flex-basis:48%;
+    }
+  }
+  @media(max-width:520px){
+   .team .team-information .awesome-team .image{
+        flex-basis:100%;
+    }
+    .team .team-information .awesome-team .image .awesome-team-img{
+        width: 90%;
+        margin: auto;
+    }
+  }
+
+  @media(max-width:420px){
+    .team .team-information .team-title {
+        padding: 54px 0px 42px;
+    }
+    .team .team-information .team-title p {
+        padding: 12px 6px;
+    }
+  }

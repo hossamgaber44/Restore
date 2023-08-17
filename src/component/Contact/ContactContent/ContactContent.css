@@ -1,0 +1,18 @@
+
+.contact-of-title{
+    height: 66vh;
+    color: #ffffff;
+    letter-spacing: 3px;
+    background: url('/public/img/Gallerys 1.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.contact-of-title .contact-title-info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding-top: 12vh;
+    transform: translate(-50%,-50%);
+    font-size: 22px;
+}

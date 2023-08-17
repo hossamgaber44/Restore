@@ -1,0 +1,175 @@
+{
+    "repair_services" : [
+        {
+            "id": 1 ,
+            "icon":"fa-solid fa-desktop",
+            "title": "REPAIR COMPUTER",
+            "body":"Our helpful,friendly and A+ Certified Technicians are ready to take care of your valuable Computer"
+        },
+         {
+            "id": 2,
+            "icon":"fa-sharp fa-solid fa-building",
+            "title": "REPAIR COMPUTER",
+            "body":"Our helpful,friendly and A+ Certified Technicians are ready to take care of your valuable Computer"
+        }, 
+        {
+            "id": 3 ,
+            "icon":"fa-solid fa-desktop",
+            "title": "REPAIR COMPUTER",
+            "body":"Our helpful,friendly and A+ Certified Technicians are ready to take care of your valuable Computer"
+         } ,
+         {
+            "id": 4 ,
+            "icon":"fa-sharp fa-solid fa-building",
+            "title": "REPAIR COMPUTER",
+            "body":"Our helpful,friendly and A+ Certified Technicians are ready to take care of your valuable Computer"
+         } 
+    ],
+    "experience" : [
+        {
+            "id": 1 ,
+            "img":"./img/services.png",
+            "number_Of_Years":"22",
+            "title":"YEARS OF EXPERIENCE IN DIGITAL DEVICE REPAIR SERVICES",
+            "information1":"Restore is a U.S based computer repair service cen-ter.Basically we repair all major brands of PCs,Laptops ,Smartphone ,Tablet and Gaming Cosole devices issues. we provide the services by well trained, skillful and friendly stuff. Our skill have been tested over the years.",
+            "information2":"We're not only here to fix your device but also make sure your are informed and confortable with the whole process. We'll keep your updated and your feel confortable with our services.",
+            "phone":"123-456-789",
+            "day":"24/7",
+            "month":" Mon-Fri"
+        }
+    ],
+    "process":[
+        {
+            "id":"1",
+            "device_num":"1",
+            "device_type":"DAMAGE DEVICE",
+            "information":"When ypur device is need to be fixed please no panic and relaxed"
+        },
+          {
+            "id":"2",
+            "device_num":"2",
+            "device_type":"DAMAGE DEVICE",
+            "information":"When ypur device is need to be fixed please no panic and relaxed"
+        },
+         {
+            "id":"3",
+            "device_num":"3",
+            "device_type":"DAMAGE DEVICE",
+            "information":"When ypur device is need to be fixed please no panic and relaxed"
+        },
+        {
+            "id":"4",
+            "device_num":"4",
+            "device_type":"DAMAGE DEVICE",
+            "information":"When ypur device is need to be fixed please no panic and relaxed"
+        }
+    ],
+    "repair_plan":[
+        {
+            "id":"1",
+            "type":"Bronze",
+            "price":"26",
+            "place":"shop",
+             "information":"We provide this kind of service in our shop test"
+        },
+         {
+            "id":"2",
+            "type":"Silver",
+            "price":"36",
+            "place":"shop",
+             "information":"We provide this kind of service in our shop test"
+        },
+         {
+            "id":"3",
+            "type":"Gold",
+            "price":"46",
+            "place":"Home",
+             "information":"We provide this kind of service in our shop test"
+        },
+         {
+            "id":"4",
+            "type":"Plutinam",
+            "price":"56",
+            "place":"Home",
+             "information":"We provide this kind of service in our shop test"
+        }
+    ],
+    "awesome_team":[
+        {
+            "id":"1",
+            "img":"img/Awesome Team 1.png",
+            "name":"Alexender Gary",
+            "occupation":"CEO & Fouder"
+        },
+          {
+            "id":"2",
+            "img":"img/Awesome Team 2.png",
+            "name":"Mellissa Munoz",
+            "occupation":"Chief Engineer"
+        },
+          {
+            "id":"3",
+            "img":"img/Awesome Team 3.png",
+            "name":"John Abraham",
+            "occupation":"Technical Manager"
+        },
+          {
+            "id":"4",
+            "img":"img/Awesome Team 4.png",
+            "name":"Silvia Stan",
+            "occupation":"Office Manager"
+        }
+    ],
+    "statistics":[
+        {
+            "id":"1",
+            "number":"275",
+            "type":"Current",
+            "type1":"Fixings"
+        },
+          {
+            "id":"2",
+            "number":"6325",
+            "type":"Happy",
+            "type1":"Clients"
+        },
+        {
+            "id":"3",
+            "number":"22",
+            "type":"Years",
+            "type1":"Experience"
+        },
+        {
+            "id":"4",
+            "number":"5750",
+            "type":"Devices",
+            "type1":"Fixing"
+        }
+    ],
+    "repair_guide":[
+        {
+            "id":"1",
+            "img":"img/Guide 1.jpg",
+            "date":"January 27,2017",
+            "title":"Repair Your Samsung when it's not working correctly",
+            "information":"Lorem ipsum dolor sit amet."
+        }, 
+        {
+            "id":"2",
+            "img":"img/Guide 2.jpg",
+            "date":"April 18,2018",
+            "title":"Repair Your Samsung when it's not working correctly",
+            "information":"Lorem ipsum dolor sit amet."
+        },
+        {
+            "id":"3",
+            "img":"img/Guide 3.jpg",
+            "date":"August 4,2017",
+            "title":"Repair Your Samsung when it's not working correctly",
+            "information":"Lorem ipsum dolor sit amet."
+        }
+    ]
+}
+
+
+

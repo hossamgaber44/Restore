@@ -1,0 +1,68 @@
+
+.Services{
+    padding: 16px 0px 56px;
+    line-height: 1.5;
+    letter-spacing: 1.4px;
+}
+.Services .services-title{
+   text-align: center; 
+   padding: 25px 0px 34px;
+}
+.Services .services-title h2{
+   text-align: center; 
+   padding: 12px;
+}
+.Services .services-box{
+    display: flex;
+    justify-content: space-between;
+}
+.Services .services-box .servic{
+    flex-basis:24%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    border:2px solid rgba(207,200,200, .8);
+    padding: 18px;
+}
+.Services .services-box .servic h3{
+    padding: 14px 0px;
+}
+.Services .services-box .servic p{
+    padding: 10px 0px 36px;
+    opacity: .75;
+}
+.Services .services-box .servic i{
+    font-size: 42px;
+    color: #0000006b ;
+    font-size: 46px;
+    padding: 4px;
+}
+.Services .services-box .servic .btn-icon i{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    font-size: 24px;
+    padding: 6px;
+    background-color: #db7a07;
+    color: #ffffff;
+}
+@media(max-width:1080px){
+    .Services .services-box{
+        flex-wrap: wrap;
+    }
+    .Services .services-box .servic{
+        flex-basis:32.2%;
+        margin-bottom: 14px;
+    }
+}
+@media(max-width:880px){
+    .Services .services-box .servic{
+        flex-basis:48%;
+    }
+}
+@media(max-width:580px){
+    .Services .services-box .servic{
+        flex-basis:100%;
+    }
+}
